@@ -9,4 +9,3 @@ syntax on
 colorscheme Tomorrow-Night
 
 set hlsearch
-
