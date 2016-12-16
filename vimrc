@@ -25,6 +25,10 @@ Plug 'tpope/vim-fugitive'
 " whether each line has been added, modified, and where lines have been removed.
 Plug 'airblade/vim-gitgutter'
 
+" vim-airline
+" Lean & mean status/tabline for vim that's light as air.
+Plug 'vim-airline/vim-airline'
+
 " Add plugins to &runtimepath
 call plug#end()
 
