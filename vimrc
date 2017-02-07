@@ -28,6 +28,7 @@ Plug 'airblade/vim-gitgutter'
 " vim-airline
 " Lean & mean status/tabline for vim that's light as air.
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -45,3 +46,6 @@ colorscheme Tomorrow-Night
 set hlsearch
 
 set ttyfast
+
+" Tomorrow airline theme
+let g:airline_theme='tomorrow'
