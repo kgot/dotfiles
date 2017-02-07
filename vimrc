@@ -29,6 +29,7 @@ Plug 'airblade/vim-gitgutter'
 " Lean & mean status/tabline for vim that's light as air.
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'edkolev/tmuxline.vim'
 
 " Add plugins to &runtimepath
 call plug#end()
