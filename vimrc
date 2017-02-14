@@ -1,5 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
+" Syntastic
+" Syntastic is a syntax checking plugin for Vim created by Martin Grenfell. It
+" runs files through external syntax checkers and displays any resulting
+" errors to the user. This can be done on demand, or automatically as files
+" are saved. If syntax errors are detected, the user is notified and is happy
+" because they didn't have to compile their code or execute their script to
+" find them.
+Plug 'scrooloose/syntastic'
+
 " VIM-JAVASCRIPT
 " JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.
 Plug 'pangloss/vim-javascript'
@@ -38,6 +47,9 @@ set number
 set relativenumber
 set showmatch
 
+" Always show last status
+set laststatus=2
+
 " Tomorrow Theme
 " https://github.com/chriskempson/tomorrow-theme
 filetype on
@@ -50,3 +62,13 @@ set ttyfast
 
 " Tomorrow airline theme
 let g:airline_theme='tomorrow'
+
+" syntastic config
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
