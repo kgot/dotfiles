@@ -35,7 +35,10 @@ set showmatch
 set laststatus=2    
 
 " Expand TABs to spaces
-set expandtab  
+set expandtab
+
+" A tab is 4 spaces 
+set tabstop=4
 
 " Indents will have a width of 2
 set shiftwidth=2
