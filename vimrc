@@ -31,6 +31,9 @@ set number
 set relativenumber
 set showmatch
 
+" Do not wrap lines
+set nowrap
+
 " Always show last status
 set laststatus=2    
 
