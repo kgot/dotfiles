@@ -24,6 +24,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'edkolev/tmuxline.vim'
 
+" The NERD tree allows you to explore your filesystem and to open files and directories. 
+" It presents the filesystem to you in the form of a tree which
+" you manipulate with the keyboard and/or mouse. 
+" It also allows you to perform simple filesystem operations.
+Plug 'scrooloose/nerdtree'
+
+" YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine for Vim.
+Plug 'valloric/youcompleteme'
+
 " Add plugins to &runtimepath
 call plug#end()
 
