@@ -30,9 +30,6 @@ Plug 'edkolev/tmuxline.vim'
 " It also allows you to perform simple filesystem operations.
 Plug 'scrooloose/nerdtree'
 
-" YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine for Vim.
-Plug 'valloric/youcompleteme'
-
 " Add plugins to &runtimepath
 call plug#end()
 
